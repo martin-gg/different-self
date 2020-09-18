@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+.insider-page {
+    min-height: 100vh;
+    width: 100%;
+}
+.main-page {
+    background-image: linear-gradient(to right, rgba(1, 1, 1, 0.99), rgba(1, 1, 1, 0.95), rgba(1, 1, 1, 0.92), rgba(1, 1, 1, 0.9), rgba(1, 1, 1, 0.89), rgba(1, 1, 1, 0.22), rgba(1, 1, 1, 0.15), rgba(1, 1, 1, 0.1), rgba(1, 1, 1, 0.1), rgba(1, 1, 1, 0.05)), url("../images/mainBck.png");
+    outline: none;
+    background-size: cover;
+    margin-bottom: -3.5vh;
+}
+.menu-page {
+    background: linear-gradient(to bottom right, rgba(1, 1, 1, 1), rgba(1, 1, 1, 0.98), rgba(1, 1, 1, 0.96), rgba(1, 1, 1, 0.94));
+    outline: none;
+    text-align: center;
+}
+body {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    margin: 0%;
+    color: white;
+    text-shadow: 1px 1px 2px #000;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    height: 3.125rem;
+    
+}
+.header-side {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.header-side a {
+    transition: font-size 1s;
+}
+.content-side {
+    float: left;
+    padding-top: 10%;
+    padding-left: 15%;
+    width: 35%;
+}
+
+.content-side h1 {
+    margin: 0;
+}
+#importantButton {
+    padding-left: 3px;
+}
+.genreMenu h1{
+    text-align: center;
+}
+.clear-class {
+    clear: both;
+}
+.text-container {
+    text-align: center;
+}
+.text-container h1 {
+    padding-top: 3%;
+}
+.text-container p {
+    max-width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+.button-container {
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+label {
+    background-color: rgb(0, 63, 117);
+    font-size: 16px;
+    padding: 20px 40px;
+    min-width: 40px;
+    min-height: 20px;
+    transition: color 1s, background-color 1s;
+    border-radius: 10%;
+}
+.button-container input {
+    display: none;
+}
+/*
+.button-container {
+    max-width: 60%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.button-container button {
+    background-color: rgb(0, 63, 117);
+    width: 20vh;
+    height: 10vh;
+    overflow: auto;
+    border: none;
+    font-size: 16px;
+    border-radius: 5%;
+    color: white;
+    margin: 1% 2%;
+    transition: color 1s, background-color 1s;
+}
+*/
+.interface-buttons {
+    align-self: center;
+    background-color: rgb(148, 136, 81);
+    color: white;
+    text-shadow: 1px 1px 2px rgb(93, 98, 102);
+    width: 25vh;
+    height: 8vh;
+    font-size: 16px;
+    border: none;
+    transition: color 1s, background-color 1s;
+}
+#toBeCentered {
+    padding-top: 5%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+.register-page {
+    background-image:linear-gradient(to left, rgba(1, 1, 1, 0.7), rgba(1, 1, 1, 0.65), rgba(1, 1, 1, 0.63), rgba(1, 1, 1, 0.62), rgba(1, 1, 1, 0.60), rgba(1, 1, 1, 0.52), rgba(1, 1, 1, 0.39), rgba(1, 1, 1, 0.23), rgba(1, 1, 1, 0.22), rgba(1, 1, 1, 0.1)), url("../images/register-background.jpg");
+    outline: none;
+    background-size: cover;
+    background-position: bottom;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.register-page:first-child {
+    text-shadow: 1px 1px 2px #000;
+}
+.register-page:last-child {
+    float: right;
+    background-color: rgb(0, 63, 117);
+}
+#register-form input {
+    margin-bottom: 2vh;
+}
+#form-container {
+    padding: 30px 40px;
+    float: right;
+    text-align: left;
+    background-color: rgba(1, 1, 1, 0.5);
+    border-radius: 3%;
+}
+.register-content {
+    margin-right: 30px;
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.inner-links {
+    text-decoration: none;
+    color: white;
+    transition: color 1s;
+}
+header img {
+    display: none;
+    max-width: 50px;
+    max-height: auto;
+}
+select {
+    margin-bottom: 10px;
+}
+#register div {
+    text-align: left;
+}
+div h2 {
+    padding-left: 20px;
+}
+@media only screen and (max-width: 1000px) {
+    header .header-side {
+        display: none;
+
+    }
+    header img {
+        display: block;
+    }
+}
+#errorMessage {
+    padding: 5px;
+    background-color: darkred;
+    border-radius: 5%;
+    display: none;
+}
+/* 
+#for header in index.html
+    background: rgba(2, 1, 1, 0.4);
+    box-shadow: 0 1px 3px 0 rgba(4, 3, 3, 0.2);
+*/

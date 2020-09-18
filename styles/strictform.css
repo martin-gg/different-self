@@ -1,0 +1,19 @@
+#strict-form {
+    margin-top: 10vh;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 4%;
+    min-width: 30%;
+    max-width: 40%;
+}
+form {
+    margin: 500px auto;
+}
+#theHeader {
+    margin-bottom: 22vh;
+}
+#errorMessage {
+    max-width: 80%;
+    margin: 0 auto;
+}

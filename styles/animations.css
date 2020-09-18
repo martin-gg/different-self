@@ -1,0 +1,19 @@
+.button-container label:hover {
+    background-color: white;
+    color: black;
+}
+.button-container button:focus {
+    background-color: navajowhite;
+    font-weight: bold;
+    color: rgb(3, 3, 63);
+}
+.interface-buttons:hover {
+    background-color: rgb(231, 217, 154);
+    color: black;
+}
+.inner-links:hover {
+    color: black;
+}
+.header-side a:hover {
+    font-size: 20px;
+}

@@ -1,0 +1,17 @@
+.description-container {
+    display: flex;
+    justify-content: space-around;
+}
+.description-container div {
+    padding: 0 50px;
+    text-align: center;
+}
+#intro-words {
+    margin-top: 30vh;
+}
+#intro-words div {
+    text-align: center;
+}
+.description-container div div {
+    text-align: justify;
+}
