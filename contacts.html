@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/strictform.css">
+    <link rel="stylesheet" href="styles/animations.css">
+</head>
+<body>
+    <div class="insider-page menu-page">
+        <div id="theHeader">
+            <header>
+                <h3 id="logo">Different Students</h3>
+                <img src="images/hamburger.png" onclick="showMenu()">
+                <nav class="header-side">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="contacts.html">Contact</a>
+                    <a id="importantButton" href="test.html">Test</a>
+                </nav>
+            </header>
+            <div id="mobileNav"></div>
+        </div>
+        <div class="contact-form-container">
+            <form action="/test.html" method="POST" id="strict-form">
+                Name <br>
+                <input type="text" name="username-input"> <br>
+                Email* <br>
+                <input type="text" name="email-input"> <br>
+                Message <br>
+                <textarea name="" id="" cols="30" rows="4" placeholder="Write your message here."></textarea>
+                <br>
+                <br>
+                <button class="interface-buttons" id="form-submit">Submit</button>
+                <br>
+                <small>Fields with * are not mandatory. <br> This form is for statistics only.</small>
+                <br>
+                <small id="errorMessage">Input not valid</small>
+            </form>
+        </div>
+    </div>
+    <script src="scripts/responsive.js"></script>
+    <script src="scripts/strictFormValidation.js"></script>
+</body>
+</html>
